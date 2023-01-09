@@ -1,6 +1,6 @@
 # Base4096
 
-A Base4096 algorithm is a specific type of Base4096 algorithm that uses a base of 4096. It represents numeric values using a set of 4096 characters, which can include the upper and lower case letters, the digits 0-9, and various special characters.
+"A Base4096 algorithm is a specific type of Base4096 algorithm that uses a base of 4096. It represents numeric values using a set of 4096 characters, which can include the upper and lower case letters, the digits 0-9, and various special characters.
 
 Base4096 algorithms are useful for a number of different purposes, including:
 
