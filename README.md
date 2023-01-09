@@ -57,3 +57,5 @@ The script takes an integer as input and returns a string as output. The decode(
 The encode() function works by first initializing an empty string called encoded. It then enters a loop that continues as long as number is greater than 0. In each iteration of the loop, the function adds the character at the index number % 4096 in the alphabet string to the beginning of encoded and then updates number to be number // 4096. The loop terminates when number becomes 0.
 
 The decode() function works by initializing a variable called decoded to 0. It then iterates over each character c in the input string encoded, starting from the end and working backwards. For each character c, it adds the value of alphabet.index(c) * 4096**i to decoded, where i is the index of the character in the reversed string.
+
+Written by Josef Kulovany - ZCHG.org
