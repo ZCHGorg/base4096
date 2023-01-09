@@ -18,17 +18,35 @@ Base4096 algorithms can be used to encode and compress data that is stored on a 
 
 <B>USE OR INSTALLATION:</B>
 
-To run the script, you will need to have a Python interpreter installed on your system. You can then run the script by using the following command:
+This script can be imported.  To import, you will need to install your package using pip by running the following command:
 
-python script.py
-Replace script.py with the name of your script file. This will execute the script and run the functions defined in it.
+pip install git+https://github.com/ZCHGorg/base4096.git@latest
+
+Then you can use :
+
+import base4096
+
+Otherwise, to run the script, you will need to have a Python interpreter installed on your system. You can then run the script by using the following command:
+
+python base4096.py
+This will execute the script and run the functions defined in it.
 
 If you want to pass arguments to the script, you can do so by providing them after the script name. For example, to pass the integer 123 to the encode() function in the script, you could use the following command:
 
-python script.py 123
+python base4096.py 123
 This would call the encode() function with the argument 123, and the function would return the encoded string.
 
 You may also wish to simply copy and paste the code directly into your own script.  Be sure to show attribution per the licensing requirements, please!
+
+<b>Examples:</b>
+
+def encode(number):
+    # Encode a number as base4096
+    pass
+
+def decode(encoded):
+    # Decode a base4096 encoded number
+    pass
 
 
 
