@@ -8,11 +8,11 @@ setup(
     package_data={
         '': ['*.py'],
     },
-    description='A custom base 4096 encoding and decoding library',
+    description='Base4096 encoding and decoding functions',
     author='Josef Kulovany',
     author_email='charg.chg.wecharg@gmail.com',
-    url='https://github.com/ZCHGorg/Base4096/blob/main/Base4096',
-    install_requires=[base4096.py],
+    url='https://github.com/ZCHGorg/base4096',
+    install_requires=[],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: ZCHG.org License',
