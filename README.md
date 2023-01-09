@@ -18,7 +18,7 @@ Base4096 algorithms can be used to encode and compress data that is stored on a 
 
 <B>USE OR INSTALLATION:</B>
 
-To run the script that you provided, you will need to have a Python interpreter installed on your system. You can then run the script by using the following command:
+To run the script, you will need to have a Python interpreter installed on your system. You can then run the script by using the following command:
 
 python script.py
 Replace script.py with the name of your script file. This will execute the script and run the functions defined in it.
@@ -27,6 +27,8 @@ If you want to pass arguments to the script, you can do so by providing them aft
 
 python script.py 123
 This would call the encode() function with the argument 123, and the function would return the encoded string.
+
+You may also wish to simply copy and paste the code directly into your own script.  Be sure to show attribution per the licensing requirements, please!
 
 
 
