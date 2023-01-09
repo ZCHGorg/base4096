@@ -13,3 +13,27 @@ Data transmission: Base4096 algorithms can be used to transmit data over network
 Data storage: Base4096 algorithms can be used to store data more efficiently, by using fewer characters to represent the same data."
 
 Base4096 algorithms can be used to encode and compress data that is stored on a blockchain, allowing for more efficient storage and faster transaction times. The compact size of the encoded data can also help to reduce the overall size of the blockchain, which can be beneficial for decentralization and security purposes.
+
+
+
+<B>USE OR INSTALLATION:</B>
+
+To run the script that you provided, you will need to have a Python interpreter installed on your system. You can then run the script by using the following command:
+
+python script.py
+Replace script.py with the name of your script file. This will execute the script and run the functions defined in it.
+
+If you want to pass arguments to the script, you can do so by providing them after the script name. For example, to pass the integer 123 to the encode() function in the script, you could use the following command:
+
+python script.py 123
+This would call the encode() function with the argument 123, and the function would return the encoded string.
+
+
+
+<B>HOW IT WORKS</B>
+
+The script takes an integer as input and returns a string as output. The decode() function takes a string as input and returns an integer as output.
+
+The encode() function works by first initializing an empty string called encoded. It then enters a loop that continues as long as number is greater than 0. In each iteration of the loop, the function adds the character at the index number % 4096 in the alphabet string to the beginning of encoded and then updates number to be number // 4096. The loop terminates when number becomes 0.
+
+The decode() function works by initializing a variable called decoded to 0. It then iterates over each character c in the input string encoded, starting from the end and working backwards. For each character c, it adds the value of alphabet.index(c) * 4096**i to decoded, where i is the index of the character in the reversed string.
