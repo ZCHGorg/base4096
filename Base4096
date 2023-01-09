@@ -3,12 +3,12 @@ alphabet = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^
 def encode(number):
     encoded = ''
     while number > 0:
-        encoded = alphabet[number % 4112] + encoded
-        number //= 4112
+        encoded = alphabet[number % 4096] + encoded
+        number //= 4096
     return encoded
 
 def decode(encoded):
     decoded = 0
     for i, c in enumerate(reversed(encoded)):
-        decoded += alphabet.index(c) * 4112**i
+        decoded += alphabet.index(c) * 4096**i
     return decoded
