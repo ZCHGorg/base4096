@@ -40,6 +40,8 @@ You may also wish to simply copy and paste the code directly into your own scrip
 
 <b>Examples:</b>
 
+For example, if you have defined the following functions in your base4096 module:
+
 def encode(number):
     # Encode a number as base4096
     pass
@@ -47,6 +49,11 @@ def encode(number):
 def decode(encoded):
     # Decode a base4096 encoded number
     pass
+
+You can use these functions in your code like this:
+
+result = base4096.encode(12345)
+decoded = base4096.decode(result)
 
 
 
