@@ -65,4 +65,16 @@ The encode() function works by first initializing an empty string called encoded
 
 The decode() function works by initializing a variable called decoded to 0. It then iterates over each character c in the input string encoded, starting from the end and working backwards. For each character c, it adds the value of alphabet.index(c) * 4096**i to decoded, where i is the index of the character in the reversed string.
 
+<B>PREMISE:</B>
+
+In general, storing characters in a string or a file will have a much lower impact on computer performance compared to generating characters on the fly. Generating characters on the fly can be a computationally expensive operation, especially if the characters are being generated randomly or based on some complex algorithm.
+
+Storing characters in a string or a file simply involves allocating memory to hold the characters and writing the characters to the memory or file. This is a relatively fast and simple operation that has a minimal impact on computer performance.
+
+On the other hand, generating characters on the fly typically involves executing some kind of computation or algorithm to produce the characters. This can be a much more resource-intensive operation, as it requires the computer to perform additional calculations and possibly access external resources.
+
+In general, it is more efficient to store characters in a string or file rather than generating them on the fly, as this can help to reduce the overall computational load on the computer and improve performance.
+
+With the advent of AI being brought to the fore, the need for stored memory for a given character set will naturally increase at a much higher rate than anticipated.
+
 Written by Josef Kulovany - ZCHG.org
