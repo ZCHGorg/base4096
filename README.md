@@ -18,13 +18,15 @@ Base4096 algorithms can be used to encode and compress data that is stored on a 
 
 <B>USE OR INSTALLATION:</B>
 
-This script can be imported.  To import, you will need to install your package using pip:
-    ```pip install base4096
-     ```
+To use the `base4096` package, you can import it into your Python project. To do so, follow the steps below:
 
-alternate strategy: 
-```pip install git+https://github.com/ZCHGorg/base4096.git@latest
-```
+**Install from PyPI:**
+
+   If you prefer to install from PyPI, you can use the following command:
+
+   ```bash
+   pip install base4096
+    ```
 
 Then you can use :
 
