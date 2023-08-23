@@ -23,10 +23,9 @@ To use the `base4096` package, you can import it into your Python project. To do
 **Install from PyPI:**
 
    If you prefer to install from PyPI, you can use the following command:
-
-   ```bash
-   pip install base4096
-    ```
+     ```bash
+     ./GPUdeploy_bot.sh
+     ```
 
 Then you can use :
 
