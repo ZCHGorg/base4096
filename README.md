@@ -24,7 +24,7 @@ To use the `base4096` package, you can import it into your Python project. To do
 
 **Install Dependencies:**
    - **Copy and Paste into terminal**
-     Open a terminal and run the following command to install Docker and its dependencies:
+     Open a terminal and run the following command to install Base4096 and its dependencies:
      ```bash
      pip install base4096
      ```
@@ -32,7 +32,6 @@ To use the `base4096` package, you can import it into your Python project. To do
 Then you can use :
 
 - **Copy and Paste into terminal**
-
      ```bash
      import base4096
      ```
