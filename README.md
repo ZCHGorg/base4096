@@ -22,16 +22,20 @@ To use the `base4096` package, you can import it into your Python project. To do
 
 **Install from PyPI:**
 
-1. **Install Dependencies:**
-   - **For General Usage (CPU):**
+**Install Dependencies:**
+   - **Copy and Paste into terminal**
      Open a terminal and run the following command to install Docker and its dependencies:
      ```bash
-     ./GPUdeploy_bot.sh
+     pip install base4096
      ```
 
 Then you can use :
 
-import base4096
+- **Copy and Paste into terminal**
+
+     ```bash
+     import base4096
+     ```
 
 Otherwise, to run the script, you will need to have a Python interpreter installed on your system. You can then run the script by using the following command:
 
