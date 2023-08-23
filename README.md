@@ -19,8 +19,22 @@ Base4096 algorithms can be used to encode and compress data that is stored on a 
 <B>USE OR INSTALLATION:</B>
 
 This script can be imported.  To import, you will need to install your package using pip:
+[![Image](https://github.com/ZCHGorg/base4096/raw/master/assets/24325826/6da44fcf-e975-4f57-a39c-cdc81c7c7fc4.png)](javascript:void(0))
 
-![image](https://github.com/ZCHGorg/base4096/assets/24325826/6da44fcf-e975-4f57-a39c-cdc81c7c7fc4)
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const image = document.querySelector("img");
+    image.addEventListener("click", function() {
+        const dummy = document.createElement("input");
+        document.body.appendChild(dummy);
+        dummy.value = "Content to copy";
+        dummy.select();
+        document.execCommand("copy");
+        document.body.removeChild(dummy);
+        alert("Content copied to clipboard!");
+    });
+});
+</script>
 
 
 alternate strategy: 
