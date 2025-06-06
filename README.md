@@ -97,6 +97,7 @@ Alphabet-Fingerprint:
 ݵ}۴ǲฦďࣔஉ૽ૢʔ੭yജ२ᆙၧљӗມᆧખથᅇࠂඅ௹ʫtමჺાѸሡྥᄱࠛࡌϕց෯໙Нܕࢀřݜմ๊ऐʩٕܟ़ࡵǋࠧڰࣿໍαा၏൴
 ࿑ɽ̚ঙӀ࡛¨ၨҩৗཙر൫൦༝ᆡӀǮΊô¦Ɖࡑ୦ලৌ၍ਚၤ༨ԾඤभუႤթе࠺ӉǦ͙ᄙવȡݛࡶɩวţ่ஒי̯ɭଏѝलઢরˠעճౌ૭
 ---END BASE4096 SIGNATURE---
+```
 
 **Full Changelog**: https://github.com/ZCHGorg/base4096/compare/base4096...v2.0.0
 
