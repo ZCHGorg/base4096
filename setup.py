@@ -12,12 +12,12 @@ setup(
     author='Josef Kulovany',
     author_email='charg.chg.wecharg@gmail.com',
     url='https://github.com/ZCHGorg/base4096',
-    license='MIT',
+    license='https://zchg.org/t/legal-notice-copyright-applicable-ip-and-licensing-read-me/440',
     keywords='base4096 encoder decoder',
     install_requires=[],
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: ZCHG.ORG LICENSE',
+        'License :: OSI Approved :: ZCHG.ORG LICENSE - https://zchg.org/t/legal-notice-copyright-applicable-ip-and-licensing-read-me/440',
         'Operating System :: OS Independent',
     ],
 )
