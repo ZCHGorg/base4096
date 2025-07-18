@@ -4,6 +4,7 @@
 
 import unicodedata
 import os
+import pkg_resources
 
 # Generate or load the base4096 character set
 def generate_base4096_alphabet(seed):
