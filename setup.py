@@ -3,10 +3,17 @@ from setuptools import setup, find_packages
 setup(
     name='base4096',
     version='2.0',
-    packages=find_packages(),
+    packages=['base4096'],  
+    py_modules=[
+        'base4096',
+        'frozen_base4096_alphabet',
+        'freeze_base4096_alphabet',
+        'sign_base4096',
+        'base4096_hkdf_seal'
+    ],
     include_package_data=True,
     package_data={
-        '': ['*.py'],
+        '': ['*.py', '*.txt'],
     },
     description='Base4096 encoding and decoding functions',
     author='Josef Kulovany',
@@ -17,7 +24,8 @@ setup(
     install_requires=[],
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: ZCHG.ORG LICENSE - https://zchg.org/t/legal-notice-copyright-applicable-ip-and-licensing-read-me/440',
+        'License :: Other/Proprietary License',
         'Operating System :: OS Independent',
     ],
+    python_requires='>=3.6',
 )
