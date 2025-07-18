@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     package_data={
-        '': ['*.py'],
+        'base4096': ['frozen_base4096_alphabet.txt'],
     },
     description='Base4096 encoding and decoding functions',
     author='Josef Kulovany',
@@ -14,7 +14,7 @@ setup(
     url='https://github.com/ZCHGorg/base4096',
     license='https://zchg.org/t/legal-notice-copyright-applicable-ip-and-licensing-read-me/440',
     keywords='base4096 encoder decoder',
-    install_requires=[],
+    install_requires=['unicodedata'],  # Add unicodedata if needed
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: ZCHG.ORG LICENSE - https://zchg.org/t/legal-notice-copyright-applicable-ip-and-licensing-read-me/440',
