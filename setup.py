@@ -14,7 +14,7 @@ setup(
     url='https://github.com/ZCHGorg/base4096',
     license='https://zchg.org/t/legal-notice-copyright-applicable-ip-and-licensing-read-me/440',
     keywords='base4096 encoder decoder',
-    install_requires=['setuptools'],
+    install_requires=['setuptools'],  # For pkg_resources
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: ZCHG.ORG LICENSE - https://zchg.org/t/legal-notice-copyright-applicable-ip-and-licensing-read-me/440',
