@@ -180,7 +180,7 @@ Project: Canonical Base-4096 Encoding Toolkit
 Signature: `base4096.sig4096` (see below)  
 License: https://zchg.org/t/legal-notice-copyright-applicable-ip-and-licensing-read-me/440
   
-Version: 2.0.0  
+Version: 2.0.1  
 
 ---
 

@@ -46,10 +46,19 @@ SEED = (
 def load_frozen_alphabet(filepath="frozen_base4096_alphabet.txt") -> str:
     if not os.path.exists(filepath):
         raise FileNotFoundError(f"Frozen alphabet file not found: {filepath}")
+
     with open(filepath, "r", encoding="utf-8") as f:
-        alphabet = f.read().strip()
-    if len(alphabet) != 4096:
-        raise ValueError("Frozen alphabet length is not 4096 characters.")
+        # Strip whitespace + newlines just in case
+        alphabet = f.read().strip().replace("\n", "").replace("\r", "")
+
+    length = len(alphabet)
+    unique = len(set(alphabet))
+
+    if length != 4096:
+        raise ValueError(f"Frozen alphabet length is {length}, expected 4096 characters.")
+    if unique != 4096:
+        raise ValueError(f"Frozen alphabet has {unique} unique characters, expected 4096 unique characters.")
+
     return alphabet
 
 try:
