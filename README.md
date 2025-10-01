@@ -1,3 +1,5 @@
+NEW!  Demo - https://josefkulovany.com/demo/base4096/
+
 The era of AI demands stronger security and explicit clarity. Previously, our extended alphabet was only implied from the seed alphabet, which is no longer sufficient in today’s environment. We have now made the extended alphabet an explicit, canonical definition, ensuring deterministic and reproducible encoding.
 
 Additionally, we have introduced cryptographic signing of the canonical alphabet using our own Base-4096 encoding layered (or “shelled”) over SHA-256. This enhancement provides tamper-evident guarantees and fosters both backward and forward compatibility.
