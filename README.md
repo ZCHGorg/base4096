@@ -270,7 +270,7 @@ Alphabet-Fingerprint:
 
 ```
 
-**Full Changelog**: https://github.com/ZCHGorg/base4096/compare/base4096...v2.0.0
+**Full Changelog**: [https://github.com/ZCHGorg/base4096/compare/base4096...v2.0.0](https://github.com/ZCHGorg/base4096/compare/base4096...V2.0.1)
 
 # Base4096 OLD README (RETAINED DUE TO 'PIP INSTALL')
 
